@@ -1,5 +1,5 @@
 .header {
-    height:55px;
+    height:56px;
     background-color: rgb(255, 255, 255);
     z-index:100;
 
@@ -39,9 +39,11 @@
     flex:1;
     height:36px;
     padding-left:10px;
+
     font-family: 'Roboto', sans-serif;
     font-weight:400;
     font-size: 13px;
+
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     border-style: solid;
@@ -94,6 +96,29 @@
     width:24px;
     margin-left:1px;
     
+}
+.notifications-icon-container{
+    position:relative;
+
+}
+.notifications-icon-bubble{
+    padding-left:5px;
+    padding-right:5px;
+    background-color:#c00;
+
+    border-style:solid;
+    border-color:white;
+    border-width:2px;
+    border-radius:60px;
+    
+    color:white;
+    font-size:12px;
+    font-family:Roboto,arial,sans-serif;
+    line-height:16px;
+    
+    position:absolute;
+    top:-5px;
+    right:-7px;
 }
 .notifications-icon{
     width:24px;

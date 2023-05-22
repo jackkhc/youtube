@@ -1,12 +1,32 @@
 .sidebar{
     background-color: rgb(255, 255, 255);
     width:240px;
-    border-style: solid;
-    border-width:1px;
-    border-color: black;
 
     position:fixed;
     left:0px;
     bottom:0px;
-    top:55px;
+    top:56px;
+    
+    overflow-y: overlay;
+}
+
+.sidebar-top-buttons{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-right:12px;
+    height:100%;
+
+}
+.sidebar-button{
+    background-color:rgba(0, 0, 0, 0.05);
+    height:40px;
+    border-radius:10px;
+
+    padding-left:12px;
+    padding-right:12px;
+
+    display:grid;
+    grid-template-columns: 48px 1fr;
 }
