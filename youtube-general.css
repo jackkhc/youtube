@@ -1,10 +1,10 @@
 p {
-    font-family:Roboto, Arial, sans-serif;
     margin-top: 0px;
     margin-bottom:0px;
 }
 
 body {
+    font-family:Roboto, Arial, sans-serif;
     margin:0px;
     padding-top:136px;
     padding-left:328px;
@@ -14,3 +14,13 @@ body {
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar{
+    width:auto;
+}
+::-webkit-scrollbar-thumb{
+    border: 4px solid transparent;
+    border-left: 5px solid transparent;
+    border-radius: 100px;
+    background-color: #686868;
+    background-clip: content-box;
+}
