@@ -10,17 +10,14 @@
     overflow-y: overlay;
 }
 
-.sidebar-top-buttons{
-    margin-top: 12px;
-    margin-bottom: 12px;
-    margin-right: 12px;
-    margin-left: 12px;
-    padding-right:12px;
-    height:100%;
+.sidebar-title-text{
+    padding:12px;
+    padding-top:7px;
+    padding-bottom:6px;
 
 }
+
 .sidebar-button{
-    background-color:rgba(0, 0, 0, 0.05);
     height:40px;
     border-radius:10px;
 
@@ -29,4 +26,58 @@
 
     display:grid;
     grid-template-columns: 48px 1fr;
+}
+.sidebar-button:hover{
+    background-color:rgba(0, 0, 0, 0.05);
+}
+.sidebar-button-icon{
+    height:24px; 
+    width:24px; 
+
+    margin:auto; 
+    margin-left:0px; 
+    margin-right:0px;
+
+    border-radius:50px;
+}
+.sidebar-button-text{
+    margin:auto; 
+    margin-left:0px;
+
+    font-size:14px; 
+    line-height:20px;
+}
+
+.sidebar-sections{
+    margin: 12px;
+    padding-right:12px;
+
+}
+.home-section{
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-bottom-width: 1px;
+
+    padding-bottom:12px;
+}
+.library-section{
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-bottom-width: 1px;
+
+    padding-top:12px;
+    padding-bottom:12px;
+}
+.sidebar-subscriptions{
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-bottom-width: 1px;
+
+    padding-top:12px;
+    padding-bottom:12px;
+}
+
+.explore-section{
+    padding-top:12px;
+    padding-bottom:12px;
 }

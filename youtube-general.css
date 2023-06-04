@@ -10,5 +10,7 @@ body {
     padding-left:328px;
 
     height:1500px;
+
+    overflow-x: hidden;
 }
 
