@@ -7,9 +7,12 @@ body {
     font-family:Roboto, Arial, sans-serif;
     margin:0px;
     padding-top:136px;
-    padding-left:260px;
+    padding-left:240px;
 
     overflow-x: hidden;
+
+    display:flex;
+    justify-content: center;
 }
 
 ::-webkit-scrollbar{
@@ -21,4 +24,16 @@ body {
     border-radius: 100px;
     background-color: #686868;
     background-clip: content-box;
+}
+
+/*when minisidebar pops in*/
+@media (max-width:1315px) {
+    body{
+        padding-left:92px;
+    }
+}
+@media (max-width:790px) {
+    body{
+        padding-left:0px;
+    }
 }

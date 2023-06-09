@@ -1,5 +1,4 @@
 .sidebar{
-    background-color: rgb(255, 255, 255);
     width:240px;
 
     position:fixed;
@@ -8,8 +7,6 @@
     top:56px;
     
     overflow-y: overlay;
-
-
 }
 
 .sidebar-title-text{
@@ -35,12 +32,11 @@
 .sidebar-button-icon{
     height:24px; 
     width:24px; 
+    border-radius:50px;
 
     margin:auto; 
     margin-left:0px; 
     margin-right:0px;
-
-    border-radius:50px;
 }
 .sidebar-button-text{
     margin:auto; 
@@ -53,34 +49,71 @@
 .sidebar-sections{
     margin: 12px;
     padding-right:12px;
-    
+}
 
+.home-section,.library-section,.sidebar-subscriptions {
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-bottom-width: 1px;
+}
+.library-section,.sidebar-subscriptions,.explore-section {
+    padding-top:12px;
+    padding-bottom:12px;
 }
 .home-section{
-    border-bottom-style: solid;
-    border-bottom-color: rgba(0, 0, 0, 0.1);
-    border-bottom-width: 1px;
-
-    padding-bottom:12px;
-}
-.library-section{
-    border-bottom-style: solid;
-    border-bottom-color: rgba(0, 0, 0, 0.1);
-    border-bottom-width: 1px;
-
-    padding-top:12px;
-    padding-bottom:12px;
-}
-.sidebar-subscriptions{
-    border-bottom-style: solid;
-    border-bottom-color: rgba(0, 0, 0, 0.1);
-    border-bottom-width: 1px;
-
-    padding-top:12px;
     padding-bottom:12px;
 }
 
-.explore-section{
-    padding-top:12px;
-    padding-bottom:12px;
+
+
+.mini-sidebar{
+    display:none;
+    width:64px;
+
+    padding-left:4px;
+    padding-right:4px;
+    margin-top:4px;
+
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    top:56px;
+}
+
+.mini-sidebar-button{
+    height:74px;
+
+    box-sizing: border-box;
+    padding-top:16px;
+    padding-bottom:14px;
+}
+
+.mini-sidebar-button-icon{
+    height:24px;
+    display: block;
+
+    margin:auto;
+    margin-bottom:6px;
+}
+
+.mini-sidebar-button-text{
+    line-height:14px;
+    font-size:10px;
+    text-align:center;
+
+    margin:auto;
+}
+
+@media (max-width:1315px) {
+    .sidebar{
+        display:none;
+    }
+    .mini-sidebar{
+        display:block;
+    }
+}
+@media (max-width:790px) {
+    .mini-sidebar{
+        display:none;
+    }
 }
