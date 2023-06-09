@@ -9,6 +9,8 @@ body {
     padding-top:136px;
     padding-left:240px;
 
+    padding-bottom:30%;
+
     overflow-x: hidden;
 
     display:flex;

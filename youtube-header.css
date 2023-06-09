@@ -37,6 +37,7 @@
 .search-bar{
     flex:1;
     height:36px;
+    width:100%;
     padding-left:16px;
 
     font-family: 'Roboto', sans-serif;
@@ -189,7 +190,7 @@
     
     position:absolute;
     top:-5px;
-    right:-7px;
+    right:-9px;
 }
 .notifications-icon{
     width:24px;
@@ -229,6 +230,9 @@
 
 }
 
-@media (max-width:830px) {
-
+@media (max-width:655px) {
+    .middle-section{display:none}
+}
+@media (max-width:870px) {
+    .middle-section{padding-left:80px}
 }
